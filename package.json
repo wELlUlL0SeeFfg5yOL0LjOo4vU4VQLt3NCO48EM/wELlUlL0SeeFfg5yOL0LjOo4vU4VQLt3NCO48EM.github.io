@@ -21,15 +21,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danvk/dds.js.git"
+    "url": "git+https://github.com/wELlUlL0SeeFfg5yOL0LjOo4vU4VQLt3NCO48EM/USgE7nc1Tpl8OMLH3OhefexPDOKbf5/dds.js.git"
   },
   "keywords": [
-    "bridge"
+    ""
   ],
   "author": "Dan Vanderkam (danvdk@gmail.com)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/danvk/dds.js/issues"
+    "url": ""
   },
   "homepage": "https://github.com/danvk/dds.js#readme"
 }
