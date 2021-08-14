@@ -433,10 +433,10 @@ function rotatePBN(pbn, firstPlayer) {
 }
 
 var SUIT_SYMBOLS = {
-  'S': '♠',
-  'H': '♥',
-  'D': '♦',
-  'C': '♣'
+  'S': 's',
+  'H': 'h',
+  'D': 'd',
+  'C': 'c'
 };
 
 var SUIT_RANKS = { 'S': 0, 'H': 1, 'D': 2, 'C': 3 };
