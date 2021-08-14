@@ -1011,7 +1011,7 @@ var DDMatrix = (function (_React$Component5) {
             React.createElement(
               "th",
               { className: "suit suit-N" },
-              "NT"
+              "n"
             ),
             React.createElement(
               "th",
