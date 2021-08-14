@@ -1016,22 +1016,22 @@ var DDMatrix = (function (_React$Component5) {
             React.createElement(
               "th",
               { className: "suit suit-S" },
-              "♠"
+              "s"
             ),
             React.createElement(
               "th",
               { className: "suit suit-H" },
-              "♥"
+              "h"
             ),
             React.createElement(
               "th",
               { className: "suit suit-D" },
-              "♦"
+              "d"
             ),
             React.createElement(
               "th",
               { className: "suit suit-C" },
-              "♣"
+              "c"
             )
           ),
           rows
