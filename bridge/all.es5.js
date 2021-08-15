@@ -971,7 +971,8 @@ var DDMatrix = (function (_React$Component5) {
       var makeCell = function makeCell(strain, player) {
         var tricks = m[strain][player];
         var selected = strain == _this3.props.strain && player == _this3.props.declarer;
-        var className = [ud(tricks)].concat(selected ? ['selected'] : []).join(' ');
+        //var className = [ud(tricks)].concat(selected ? ['selected'] : []).join(' ');
+        var className = ud(tricks);
         var clickFn = _this3.handleClick.bind(_this3, strain, player);
         return React.createElement(
           "td",
