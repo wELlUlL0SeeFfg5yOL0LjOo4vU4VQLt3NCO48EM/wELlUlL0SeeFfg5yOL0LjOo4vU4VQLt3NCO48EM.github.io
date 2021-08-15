@@ -3,14 +3,6 @@
   text-align: center;
   cursor: pointer;
 }
-.dd-matrix .down {
-  color: gray;
-  font-size: small;
-}
-.dd-matrix .selected {
-  font-weight: bold;
-  background: lightblue;
-}
 
 #preloaded-images {
   display: none;
