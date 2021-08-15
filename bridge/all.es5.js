@@ -1355,12 +1355,14 @@ var Root = (function (_React$Component7) {
       return React.createElement(
         "div",
         null,
+        /*
         React.createElement(
           "form",
           { onSubmit: handleFormSubmit },
           "PBN: ",
           React.createElement("input", { type: "text", size: "70", ref: "pbn" })
         ),
+        */
         /*
         React.createElement(
           "form",
