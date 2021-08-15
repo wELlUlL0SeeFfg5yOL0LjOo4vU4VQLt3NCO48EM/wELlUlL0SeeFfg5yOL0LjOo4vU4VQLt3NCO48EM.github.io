@@ -455,6 +455,7 @@ function compareCards(a, b) {
  * This is done asynchronously. Calls the callback after each play.
  * Returns a Promise which is resolved after the last play is completed.
  */
+/* ======== 2021/8/15 20:30
 function _autoPlay(b, cb) {
   return new Promise(function (resolve, reject) {
     var declarer = b.getDeclarer();
@@ -481,7 +482,7 @@ function _autoPlay(b, cb) {
     window.requestAnimationFrame(iterate);
   });
 }
-
+*/
 /**
  * props:
  *   suit: {'S', 'H', 'D', 'C'}
@@ -490,7 +491,7 @@ function _autoPlay(b, cb) {
  *   facedown: {false, true}
  *   onClick: (suit: string, rank: number) => void
  */
-
+/*
 var Card = (function (_React$Component) {
   _inherits(Card, _React$Component);
 
@@ -507,7 +508,7 @@ var Card = (function (_React$Component) {
    *   oneRow: boolean
    *   making: [{rank, suit, score}]
    *   onClick: (suit: string, rank: number) => void
-   */
+   *
 
   _createClass(Card, [{
     key: "handleClick",
@@ -569,7 +570,8 @@ var Card = (function (_React$Component) {
 
   return Card;
 })(React.Component);
-
+*/
+/*
 var Hand = (function (_React$Component2) {
   _inherits(Hand, _React$Component2);
 
@@ -587,7 +589,7 @@ var Hand = (function (_React$Component2) {
    *   showArrow: true | false
    *   isPositiveTrick: true | false | undefined
    *   onClick: (suit: string, rank: number) => void
-   */
+   *
 
   _createClass(Hand, [{
     key: "handleClick",
@@ -663,7 +665,8 @@ var Hand = (function (_React$Component2) {
 
   return Hand;
 })(React.Component);
-
+*/
+/*
 var Trick = (function (_React$Component3) {
   _inherits(Trick, _React$Component3);
 
@@ -684,7 +687,7 @@ var Trick = (function (_React$Component3) {
    *   onUndo: (player: string, suit: string, rank: number) => void
    *
    * TODO: kill legalSuit and use only `making`
-   */
+   *
 
   _createClass(Trick, [{
     key: "handleClick",
@@ -789,7 +792,8 @@ var Trick = (function (_React$Component3) {
 
   return Trick;
 })(React.Component);
-
+*/
+/*
 var Deal = (function (_React$Component4) {
   _inherits(Deal, _React$Component4);
 
@@ -805,7 +809,7 @@ var Deal = (function (_React$Component4) {
    *   strain: currently selected strain
    *   declarer: currently selected declarer
    *   onClick: (strain: string, declarer: string) => void
-   */
+   *
 
   _createClass(Deal, [{
     key: "handleClick",
@@ -933,6 +937,7 @@ var Deal = (function (_React$Component4) {
 
   return Deal;
 })(React.Component);
+*/
 
 var DDMatrix = (function (_React$Component5) {
   _inherits(DDMatrix, _React$Component5);
@@ -1043,6 +1048,7 @@ var DDMatrix = (function (_React$Component5) {
   return DDMatrix;
 })(React.Component);
 
+/*
 var Explorer = (function (_React$Component6) {
   _inherits(Explorer, _React$Component6);
 
@@ -1161,6 +1167,7 @@ var Explorer = (function (_React$Component6) {
 
   return Explorer;
 })(React.Component);
+*/
 
 function loadUploadedImage(file) {
   return new Promise(function (resolve, reject) {
