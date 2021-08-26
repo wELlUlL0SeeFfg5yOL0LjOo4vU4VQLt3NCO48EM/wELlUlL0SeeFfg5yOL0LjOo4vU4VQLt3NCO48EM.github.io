@@ -962,7 +962,7 @@ var DDMatrix = (function (_React$Component5) {
         var tricks = m[strain][player];
         //var className = [ud(tricks)].concat(selected ? ['selected'] : []).join(' ');
         //var className = ud(tricks);
-        return document.createElement(
+        return React.createElement(
           "td",
           null,
           tricks
