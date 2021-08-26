@@ -976,7 +976,6 @@ var DDMatrix = (function (_React$Component5) {
         var clickFn = _this3.handleClick.bind(_this3, strain, player);
         return React.createElement(
           "td",
-          { key: strain + player, className: className, onClick: clickFn },
           tricks
         );
       };
