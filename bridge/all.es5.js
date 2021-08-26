@@ -953,27 +953,15 @@ var DDMatrix = (function (_React$Component5) {
    */
 
   _createClass(DDMatrix, [{
-    key: "handleClick",
-    value: function handleClick(strain, player) {
-      if (this.props.onClick) {
-        this.props.onClick(strain, player);
-      }
-    }
-  }, {
     key: "render",
     value: function render() {
       var _this3 = this;
 
       var m = this.props.matrix;
-      var ud = function ud(num) {
-        return num >= 7 ? 'up' : 'down';
-      };
       var makeCell = function makeCell(strain, player) {
         var tricks = m[strain][player];
-        var selected = strain == _this3.props.strain && player == _this3.props.declarer;
         //var className = [ud(tricks)].concat(selected ? ['selected'] : []).join(' ');
-        var className = ud(tricks);
-        var clickFn = _this3.handleClick.bind(_this3, strain, player);
+        //var className = ud(tricks);
         return React.createElement(
           "td",
           null,
