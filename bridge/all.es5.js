@@ -1266,11 +1266,13 @@ var Root = (function (_React$Component7) {
         alert(error);
       });
     }
+  /*
   }, {
     key: "handleDDClick",
     value: function handleDDClick(strain, declarer) {
       this.setState({ strain: strain, declarer: declarer });
     }
+  */
   }, {
     key: "makeBoard",
     value: function makeBoard(state) {
@@ -1367,8 +1369,7 @@ var Root = (function (_React$Component7) {
         */
         React.createElement(DDMatrix, { matrix: calcDDTable(this.state.pbn),
           declarer: this.state.declarer,
-          strain: this.state.strain,
-          onClick: this.handleDDClick.bind(this) }),
+          strain: this.state.strain }),
         /*
         React.createElement(Explorer, { board: this.board,
           onChange: this.boardDidUpdate.bind(this) })
